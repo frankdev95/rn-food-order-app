@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #77acf1;
+  height: 10rem;
+  width: 100%;
+  padding: 0 10rem;
+}
+
+.header__img {
+  height: 30vh;
+  width: 100%;
+  margin-top: 10rem;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.header__img img {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+
+.header__logo {
+  color: white;
+  font-size: 3rem;
+  font-weight: 200;
+}
